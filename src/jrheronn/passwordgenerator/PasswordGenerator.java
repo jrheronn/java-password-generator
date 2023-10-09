@@ -51,7 +51,7 @@ public class PasswordGenerator {
         // Create list to hold characters from the input string.
         List<Character> characters = new ArrayList<Character>();
 
-        //
+        // Convert input string into a list of characters.
         for(char c:input.toCharArray()) {
             characters.add(c);
         }
