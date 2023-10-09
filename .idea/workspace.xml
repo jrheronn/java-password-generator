@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89e50df7-f7f2-4130-a80c-ca6c69019bff" name="Changes" comment="Changed Java Class Name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PasswordGenerator.java" afterDir="false" />
+    <list default="true" id="89e50df7-f7f2-4130-a80c-ca6c69019bff" name="Changes" comment="Created Main class to prompt for length.">
+      <change beforePath="$PROJECT_DIR$/src/jrheronn/passwordgenerator/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jrheronn/passwordgenerator/PasswordGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2U7qHSgC07z4clsd0hKWZiSID16" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,7 +36,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/jrhernn/IdeaProjects/java-password-generator"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,12 +65,39 @@
       <option name="project" value="LOCAL" />
       <updated>1692302727826</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed constants to uppercase">
+      <option name="closed" value="true" />
+      <created>1696878797442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696878797442</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created jrheronn.passwordgenerator package">
+      <option name="closed" value="true" />
+      <created>1696879092315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696879092315</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Main class to prompt for length.">
+      <option name="closed" value="true" />
+      <created>1696879829077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696879829077</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Changed Java Class Name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Java Class Name" />
+    <MESSAGE value="Changed constants to uppercase" />
+    <MESSAGE value="Created jrheronn.passwordgenerator package" />
+    <MESSAGE value="Created Main class to prompt for length." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Main class to prompt for length." />
   </component>
 </project>
