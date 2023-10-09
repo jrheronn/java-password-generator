@@ -1,3 +1,5 @@
+package jrheronn.passwordgenerator;
+
 public class PasswordGenerator {
 
 
