@@ -47,7 +47,29 @@ public class PasswordGenerator {
         return shuffledPassword;
     }
 
+    private static String shuffleString(String input) {
+        // Create list to hold characters from the input string.
+        List<Character> characters = new ArrayList<Character>();
 
+        //
+        for(char c:input.toCharArray()) {
+            characters.add(c);
+        }
+
+        // Create a StringBuilder to store the shuffled string.
+        StringBuilder output = new StringBuilder(input.length());
+
+        // Shuffle until the list is empty and build the new string.
+        while(!characters.isEmpty()) {
+            // Generate a random index to pick a character from the list.
+            int randPicker = (int)(Math.random()*characters.size());
+
+            // Append the picked character to the output.
+            output.append(characters.remove(randPicker));
+        }
+        // Convert StringBuilder to string.
+        return output.toString(); // Return the shuffled password.
+    }
 
 
 }
